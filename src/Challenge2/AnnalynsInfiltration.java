@@ -19,11 +19,7 @@ public class AnnalynsInfiltration {
     //Method to check if the prisoner can be freed
     public static boolean canFreePrisoner(boolean knightIsAwake, boolean archerIsAwake, boolean prisonerIsAwake, boolean petDogIsPresent){
         // The prisoner can be freed if the prisoner is awake and the dog is present, regardless of other conditions
-        if (petDogIsPresent) {
-            return !archerIsAwake;
-        } else {
-            // Alternatively, if the dog is not present, the prisoner can be freed if the knight and archer are both not awake
-            return prisonerIsAwake && !knightIsAwake && !archerIsAwake;
-        }
+        // Alternatively, if the dog is not present, the prisoner can be freed if the knight and archer are both not awake
+        return petDogIsPresent ? !archerIsAwake : prisonerIsAwake && !knightIsAwake && !archerIsAwake;
     }
 }
