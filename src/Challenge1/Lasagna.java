@@ -1,19 +1,19 @@
 package Challenge1;
 
 public class Lasagna {
-    // TODO: define the 'expectedMinutesInOven()' method
+    //Define the 'expectedMinutesInOven()' method
     public int expectedMinutesInOven() {
         return 40;
     }
-    // TODO: define the 'remainingMinutesInOven()' method
+    //Define the 'remainingMinutesInOven()' method
     public int remainingMinutesInOven(int timeInOven) {
         return expectedMinutesInOven() - timeInOven;
     }
-    // TODO: define the 'preparationTimeInMinutes()' method
+    //Define the 'preparationTimeInMinutes()' method
     public int preparationTimeInMinutes(int numOfLayers) {
         return 2 * numOfLayers;
     }
-    // TODO: define the 'totalTimeInMinutes()' method
+    //Define the 'totalTimeInMinutes()' method
     public int totalTimeInMinutes(int numOfLayers, int timeInOven) {
         return preparationTimeInMinutes(numOfLayers) + timeInOven;
     }
