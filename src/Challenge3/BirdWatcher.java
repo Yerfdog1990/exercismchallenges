@@ -19,7 +19,8 @@ public class BirdWatcher implements Instructions{
     //Method to perform increment of today's count
     @Override
     public int incrementTodaysCount() {
-        return birdsPerDay[birdsPerDay.length - 1]++;
+        birdsPerDay[birdsPerDay.length - 1]++;
+        return birdsPerDay[birdsPerDay.length-1];
     }
     //Method to check if there was a day with no visiting birds
     @Override
