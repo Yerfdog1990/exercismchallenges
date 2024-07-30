@@ -7,10 +7,12 @@ public class Lasagna {
     }
     //Define the 'remainingMinutesInOven()' method
     public int remainingMinutesInOven(int timeInOven) {
+
         return expectedMinutesInOven() - timeInOven;
     }
     //Define the 'preparationTimeInMinutes()' method
     public int preparationTimeInMinutes(int numOfLayers) {
+
         return 2 * numOfLayers;
     }
     //Define the 'totalTimeInMinutes()' method
