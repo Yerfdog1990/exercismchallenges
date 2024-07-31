@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="129e0d1d-a421-46ef-87e6-54aa701a5ad3" name="Changes" comment="Bird Watcher">
+      <change afterPath="$PROJECT_DIR$/src/Challenge4/Instructions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Challenge4/KarlsLanguages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Challenge4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Challenge3/BirdWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Challenge3/BirdWatcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722318029903</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Bird Watcher">
+      <option name="closed" value="true" />
+      <created>1722326811751</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722326811751</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
